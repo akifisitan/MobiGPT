@@ -5,5 +5,5 @@ import java.io.Serializable
 
 data class Chat(
     var title: String,
-    var messages: MutableList<Message> = mutableListOf()
+    var messages: MutableList<Message>
 ): Serializable
