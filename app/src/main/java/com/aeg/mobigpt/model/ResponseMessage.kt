@@ -13,6 +13,4 @@ data class ResponseMessage(
     val choices: List<ResponseChoice>,
     @SerializedName("usage")
     val usage: ResponseUsage,
-
-
 )

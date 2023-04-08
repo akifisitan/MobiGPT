@@ -6,5 +6,5 @@ data class ChatPayload(
     @SerializedName("model")
     val model: String,
     @SerializedName("messages")
-    val messages: List<Message>,
+    val messages: List<MessagePayload>,
 )
